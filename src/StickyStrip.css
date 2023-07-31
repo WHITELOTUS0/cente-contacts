@@ -1,11 +1,16 @@
 /* StickyStrip.css */
 .sticky-strip {
   position: fixed;
-  bottom: 0;
+  bottom: -50px;
   left: 0;
   width: 100%;
   display: flex;
+  transition: bottom 0.5s;
 }
+
+.sticky-strip.show {
+    bottom: 0;
+  }
 
 .section {
   height: 20px; /* Set the height as you need */
