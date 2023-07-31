@@ -1,0 +1,27 @@
+/* StickyStrip.css */
+.sticky-strip {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+.section {
+  height: 20px; /* Set the height as you need */
+}
+
+.blue {
+  background-color: blue;
+  width: 60%;
+}
+
+.red {
+  background-color: red;
+  width: 20%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 20%;
+}
