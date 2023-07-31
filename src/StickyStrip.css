@@ -14,6 +14,9 @@
 .blue {
   background-color: blue;
   width: 60%;
+  display: flex; /* Add this to make the text inside blue visible */
+  align-items: center; /* Add this to center the content vertically */
+  justify-content: center;
 }
 
 .red {

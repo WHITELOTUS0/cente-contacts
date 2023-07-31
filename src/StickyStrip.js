@@ -6,7 +6,7 @@ const StickyStrip = () => {
         <div className="sticky-strip">
             {/* Section 1 (Blue) */}
             <div className="section blue">
-                <h2 style={{color:"white"}}>CENTE-TECH 2023</h2>
+                <h4>CENTE-TECH 2023</h4>
             </div>
 
             {/* Section 2 (Red) */}
