@@ -1,7 +1,11 @@
 import React from "react";
-import "./login.authenticate.css"
+import "./login.authenticate.css";
+import PropTypes from "prop-types"
 
-const LoginAuthenticate=()=>{
+const LoginAuthenticate=({setToken})=>{
+    const [username, setUserName] = useState();
+    const [password, setPassword] = useState();
+    
     return(
         <div className="login-wrapper">
             <h1>Log in</h1>
@@ -20,6 +24,9 @@ const LoginAuthenticate=()=>{
     </form>
     </div>
     )
+}
+LoginAuthenticate.propTypes={
+    setToken:PropTypes.func.isRequired,
 }
 
 export default LoginAuthenticate;
