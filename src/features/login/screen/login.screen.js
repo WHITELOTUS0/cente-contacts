@@ -1,10 +1,15 @@
 import React from "react";
 import Home from "../../home/screen/home.screen";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const Login=()=>{
-    return(
-        <Home/>
+const Login = () => {
+    return (
+        <BrowserRouter>
+        <Routes >
+            <Route path="" element={<Home/>}/>
+        </Routes>
+        </BrowserRouter>
+
     )
 }
 
