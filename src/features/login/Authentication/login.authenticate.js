@@ -1,7 +1,7 @@
 import React from "react";
 import "./login.authenticate.css"
 
-const loginAuthenticate=()=>{
+const LoginAuthenticate=()=>{
     return(
         <div className="login-wrapper">
             <h1>Log in</h1>
@@ -21,3 +21,5 @@ const loginAuthenticate=()=>{
     </div>
     )
 }
+
+export default LoginAuthenticate;
