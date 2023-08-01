@@ -30,7 +30,7 @@ const LoginAuthenticate=({setToken})=>{
     return(
         <div className="login-wrapper">
             <h1>Log in</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
       <label>
         <p>Username</p>
         <input type="text" onChange={e => setUserName(e.target.value)}/>
