@@ -13,7 +13,7 @@
   }
 
 .section {
-  height: 20px; /* Set the height as you need */
+  height: 10px; /* Set the height as you need */
 }
 
 .blue {
@@ -30,6 +30,6 @@
 }
 
 .yellow {
-  background-color: yellow;
+  background-color:yellow;
   width: 20%;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import StickyStrip from "./StickyStrip";
+import StickyStrip from "./components/stickyStrip.component";
 
 const Home = () => {
     return (
